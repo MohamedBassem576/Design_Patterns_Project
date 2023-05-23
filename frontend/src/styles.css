@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: #eee;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+    background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+    background-size: 17px 17px;
+
+}
+h1{
+    margin: 30px 0;
+}
+h5{
+    margin: 20px 0;
+}
+.nav{
+    background-color: #181D31;
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 30px 1rem;
+    align-items: stretch;
+}
+.nav2{
+    background-color: #181D31;
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 30px 1rem;
+    align-items: stretch;
+}
+.nav a{
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+.nav li:hover{
+    background-color: bisque;
+}
+.nav2 li:hover{
+    background-color: bisque;
+}
+.nav2 ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+.nav2 a{
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+.card{
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 340px;
+    margin: 16px 50px;
+    float: left;
+    text-align: center;
+}
+.modal-card button{
+    width: 40px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.home-title{
+    padding-top: 15px;
+    text-align: center;
+}
+.my-btn{
+    margin: 5px 20px;
+}
+.myForm{
+    margin: 50px 50px;
+}
+.myForm label{
+    margin: 20px 0;
+    width: 100%;
+}
+hr{
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border: dashed 3px #181D31;
+    width: 650px;
+}
+.myForm input, .myForm textarea{
+    width: 30%;
+    padding: 6px 10px;
+    margin: auto;
+    border: 1px solid;
+    display: block;
+}
+.searchBar{
+    text-align: center;
+}
+.searchBar input{
+    box-shadow: 0 10px 15px #ccc;
+    border: 0 solid;
+    border-radius: 50px;
+    width: 300px;
+    padding: 5px;
+    text-align: center;
+}
+.myForm .btn{
+    margin-top: 20px;
+}
+.myForm select{
+    display: block;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+.products{
+    
+}
+.cart-btn{
+    margin: 0 30px;
+}
+.txt-area-reply{
+    margin-top: 20px;
+}
+.seller ul{
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.seller li:hover{
+    cursor: pointer
+}

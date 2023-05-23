@@ -1,0 +1,40 @@
+{
+  "type": "module",
+  "name": "sdp_project",
+  "version": "1.0.0",
+  "description": "Project for software desing patterns (Task1)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElBarBary01/SDP_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElBarBary01/SDP_project/issues"
+  },
+  "homepage": "https://github.com/ElBarBary01/SDP_project#readme",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "module-name": "^0.0.1-security",
+    "uuid": "^9.0.0"
+  },
+  "Dependencies": {
+    "uuid": "^9.0.0",
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.4",
+    "nodemon": "^2.0.16",
+    "validation": "^0.0.1"
+  }
+}
